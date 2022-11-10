@@ -21,17 +21,15 @@ public class Main {
             if (current < minCoast) {
                 minCoast = current;
             }
-
         }
         System.out.println("Минимальная сумма трат за день составила " + minCoast + " рублей. Максимальная сумма трат за день составила " + maxCosts + " рублей");
         /// задание 3
         System.out.println("Задание 3");
-        double averageAmountSpent = 0;
+        float averageAmountSpent = 0F;
         for (int i = 0; i < arr.length; i++) {
             averageAmountSpent = averageAmountSpent / arr.length;
             averageAmountSpent += arr[i];
         }
-
         System.out.println("Средняя сумма трат за месяц составила " + averageAmountSpent + " рублей");
         /// задание 4
         System.out.println("Задание 4");
